@@ -12,5 +12,9 @@ Table of Contents:
     - Brute Force Method
     - Memory Efficient method
     - Solution 
-3. Third item
+3. intToRoman & romanToInt
+    - Instructions and constraints
+    - Examples for inputs and expected outputs
+    - intToRoman solution
+    - romanToInt soultion
 4. Fourth item
