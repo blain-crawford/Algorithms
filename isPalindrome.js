@@ -67,6 +67,6 @@ var isPalindrome = function (x) {
   return reverse === x;
 };
 
-
 console.log(isPalindrome(1234321));
 console.log(isPalindrome(12345321));
+console.log(isPalindrome(123321));

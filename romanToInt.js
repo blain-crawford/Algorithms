@@ -39,6 +39,8 @@
 // s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 // It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
+// For intToRoman all numbers calculated should be <= 3000
+
 /**
  * @param {string} s
  * @return {number}
@@ -55,5 +57,5 @@
            units[Math.floor(s % 10)];
 };
 
-intToRoman(3);
+console.log(intToRoman(3));
 
