@@ -45,17 +45,45 @@
  * @param {string} s
  * @return {number}
  */
- var intToRoman = function(s) {
-    let thousands = ["", "M", "MM","MMM"];
-    let hundreds = ["", "C", "CC", "CCC","CD", "D", "DC", "DCC", "DCCC", "DM", "M"];
-    let tens = ["", "X", "XX", "XXX","XL", "LX", "LXX", "LXX", "LXXX", "XC", "C"];
-    let units = ["", "I", "II", "III","IV", "V", "VI", "VII", "VIII", "IX", "X"];
-   
-    return thousands[Math.floor(s/1000)] +
-           hundreds[Math.floor((s % 1000) / 100)]+
-           tens[Math.floor((s % 100) / 10)] +
-           units[Math.floor(s % 10)];
+
+var intToRoman = function(s) {
+   let thousands = ["", "M", "MM","MMM"];
+   let hundreds = ["", "C", "CC", "CCC","CD", "D", "DC", "DCC", "DCCC", "DM", "M"];
+   let tens = ["", "X", "XX", "XXX","XL", "LX", "LXX", "LXX", "LXXX", "XC", "C"];
+   let units = ["", "I", "II", "III","IV", "V", "VI", "VII", "VIII", "IX", "X"];
+
+   return thousands[Math.floor(s/1000)] +
+         hundreds[Math.floor((s % 1000) / 100)]+
+         tens[Math.floor((s % 100) / 10)] +
+         units[Math.floor(s % 10)];
 };
 
 console.log(intToRoman(3));
+
+let romanToInt = function(s){
+   let map = {"I": 1,
+              "V": 5,
+              "X": 10,
+              "L": 50,
+              "C": 100,
+              "D": 500,
+              "M": 1000,     
+            }
+
+   let counter = 0;
+
+   for(let i = 0; i < s.length; i++){
+      let currentValue = s[i];
+      let nextValue = s[i + 1]
+      if(map[currentValue] >= map[nextValue] || nextValue === undefined){
+         counter += map[currentValue];
+      } else if (map[currentValue] < map[nextValue]){
+         counter -= map[currentValue];
+      }
+   }
+   return counter;
+};
+
+console.log(romanToInt("MCDXLVII") === 1447);
+//expected true
 
