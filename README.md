@@ -17,4 +17,4 @@ Table of Contents:
     - Examples for inputs and expected outputs
     - intToRoman solution
     - romanToInt soultion
-4. Fourth item
+4. longestCommonPrefix
