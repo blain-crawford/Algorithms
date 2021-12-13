@@ -18,3 +18,7 @@ Table of Contents:
     - intToRoman solution
     - romanToInt soultion
 4. longestCommonPrefix
+    - Instructions
+    - Examples of inputs and outputs
+    - Initial Solution
+    - Vertical method
