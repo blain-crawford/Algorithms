@@ -21,4 +21,8 @@ Table of Contents:
     - Instructions
     - Examples of inputs and outputs
     - Initial Solution
-    - Vertical method
+    - verticle method
+5. isValid
+    - Instructions
+    - Examples of inputs and outputs
+    - initial solution
