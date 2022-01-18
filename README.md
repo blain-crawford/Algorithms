@@ -26,3 +26,8 @@ Table of Contents:
     - Instructions
     - Examples of inputs and outputs
     - initial solution
+6. linkedLists
+    -
+7. removeElement
+    - Instructions and Constraints
+    - Examples for inputs and outputs
