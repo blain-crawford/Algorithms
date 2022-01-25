@@ -37,27 +37,12 @@
 };
 
 removeElement = (nums, val) => {
-  //make k = 0
-  let k = 0;
-  //iterate through nums
-  for(let i = 0; i < nums.length; i++){
-      let currentNumber = nums[i];
-      //if nums[i] equals val
-      if(currentNumber === val){
-          //delete value from numsArray
-          let index = nums.indexOf(currentNumber);
-          nums.splice(index, 1);
-          //push an underscore in
-          nums.push('_');
-          i--;
-      }
-  }
-
-  for(let j = 0; j < nums.length; j++){
-      if(nums[j] !== '_'){
-          k++;
-      }
-  }
- //return k and array
- return `${k}, nums = ${nums}`
+    var removeElement = function(nums, val) {
+        for(let i = nums.length - 1; i >= 0; i--) {
+            if(nums[i] === val) {
+                nums.splice(i, 1);
+            }
+        }
+        return nums.length;
+    }
 };
