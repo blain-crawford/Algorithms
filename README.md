@@ -31,3 +31,6 @@ Table of Contents:
 7. removeElement
     - Instructions and Constraints
     - Examples for inputs and outputs
+8. strStr
+    - Instructions and Constraints
+    - Examples for inputs and outputs
