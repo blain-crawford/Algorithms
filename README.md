@@ -35,3 +35,5 @@ Table of Contents:
 8. strStr
     - Instructions and Constraints
     - Examples for inputs and outputs
+    - Solution
+    
