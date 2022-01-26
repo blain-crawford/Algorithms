@@ -38,5 +38,6 @@ Table of Contents:
     - Solution
 9. removeDuplicates
     - Instructions and Constraints
+    - description of custom judge
     - Examples for inputs and outputs
     - Solution   
