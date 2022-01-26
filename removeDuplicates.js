@@ -33,10 +33,29 @@
 // Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
 
+// Constraints:
+
+// 0 <= nums.length <= 3 * 104
+// -100 <= nums[i] <= 100
+// nums is sorted in non-decreasing order.
+
+
 /**
  * @param {number[]} nums
  * @return {number}
  */
  var removeDuplicates = function(nums) {
-    
+  //iterate through nums
+  for (let i = nums.length - 1; i >= 0; i--) {
+    //set variables for current and next num
+    let currentNumber = nums[i];
+    let nextNumber = nums[i - 1];
+    //while current num = next num
+    if (currentNumber === nextNumber) {
+      //splice from nums
+      nums.splice(currentNumber, 1)
+    }
+  }
+  // return nums
+  return nums;
 };
