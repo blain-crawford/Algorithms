@@ -36,4 +36,7 @@ Table of Contents:
     - Instructions and Constraints
     - Examples for inputs and outputs
     - Solution
-    
+9. removeDuplicates
+    - Instructions and Constraints
+    - Examples for inputs and outputs
+    - Solution   
