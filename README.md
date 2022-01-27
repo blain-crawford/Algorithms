@@ -40,4 +40,8 @@ Table of Contents:
     - Instructions and Constraints
     - description of custom judge
     - Examples for inputs and outputs
-    - Solution   
+    - Solution  
+10. searchInsert 
+    - Instructions and Constraints
+    - Examples for inputs and outputs
+    - Solution
