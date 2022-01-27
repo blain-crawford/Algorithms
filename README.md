@@ -45,3 +45,7 @@ Table of Contents:
     - Instructions and Constraints
     - Examples for inputs and outputs
     - Solution
+11. maxSubArray
+    - Instructions and Constraints
+    - Examples for inputs and outputs
+    - Solution
