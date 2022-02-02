@@ -13,7 +13,7 @@ Table of Contents:
     - Memory Efficient method
     - Solution 
 3. intToRoman & romanToInt
-    - Instructions and constraints
+    - Instructions and Constraints
     - Examples for inputs and expected outputs
     - intToRoman solution
     - romanToInt soultion
@@ -46,6 +46,10 @@ Table of Contents:
     - Examples for inputs and outputs
     - Solution
 11. maxSubArray
+    - Instructions and Constraints
+    - Examples for inputs and outputs
+    - Solution
+12. lengthOfLastWord
     - Instructions and Constraints
     - Examples for inputs and outputs
     - Solution
