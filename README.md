@@ -57,3 +57,8 @@ Table of Contents:
     - Instructions and Constraints
     - Examples for inputs and outputs
     - Solution
+14. climbStairs
+    - Instructions and 
+    - Examples for inputs and outputs
+    - Constraints
+    - Solution
