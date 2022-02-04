@@ -42,6 +42,8 @@
   return head;
 };
 
+//for building LinkedLists
+
 var Node = function(value) {
   var node = {};
 
