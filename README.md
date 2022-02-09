@@ -71,3 +71,7 @@ Table of Contents:
 16. createLinkedList
     - create node
     - create linked list using node
+17. merge
+    - Instructions
+    - Examples of ins and outs
+    - Constraints
