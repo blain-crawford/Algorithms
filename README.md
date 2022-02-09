@@ -63,3 +63,11 @@ Table of Contents:
     - Constraints
     - Solution
 15. deleteDuplicates
+    - Instructions  
+    - Examples for inputs and outputs
+    - Constraints
+    - Solution
+    - logic for building linked lists
+16. createLinkedList
+    - create node
+    - create linked list using node
